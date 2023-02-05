@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaginaMea</title>
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <!-- Topul paginii -->
+    <header>
+        <nav class="nav collapsible">
+          <a class="my_logo" href="#rent"><img src="MArLogoSmallest.PNG" alt="" /></a>
+          <svg class="icon icon--white nav__toggler">
+            <use href="images/sprite.svg#menu"></use>
+          </svg>
+          <ul class="list nav__list collapsible__content">
+            <li class="nav__item"><a href="#rentTwo">Rent</a></li>
+            <li class="nav__item"><a href="#expand">Plans</a></li>
+            <li class="nav__item"><a href="#reviews">Reviews</a></li>
+            <li class="nav__item"><a href="#userFriendly">Price</a></li>
+          </ul>
+        </nav>
+    </header>
+    <!-- prima parte sectiunea de mijloc -->
+    <section class="block block--dark block--skewed-left hero">
+        <div class="container grid grid--1x2">
+          <header class="block__header hero__content">
+            <h1 data-aos="fade-right" class="block__heading">
+              Movie Rent For Cinephile!
+            </h1>
+            <p class="hero__tagline">
+              Submit you application in less than 60 seconds.
+            </p>
+            <a href="" class="btn btn--accent btn--stretched">Let's Start</a>
+          </header>
+        <img class="my__class" src="Capture.PNG" alt="" />
+        </div>
+    </section>
+    <!-- sectiunea doi -->
+    <section id="rent" data-aos="fade-up" class="block container block-domain">
+        <header class="block__header">
+          <h2>Starting at £9 per month</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+            exercitationem?
+          </p>
+        </header>
+        <div class="input-group">
+          <input
+            type="text"
+            class="input"
+            placeholder="Enter movie type here..."
+          />
+          <button class="btn btn--accent">
+            Search
+          </button>
+        </div>
+        <ul id="listBlock" class="list block-domain__prices">
+          <li><span class="badge badge--secondary">SD Video Quality £9</span></li>
+          <li class="badge ">FullHD Video Quality £10</li>
+          <li class="badge ">4K UltraHD Video Quality £11</li>
+        </ul>
+    </section>
+    <!-- sectiunea trei -->
+    <section id="rentTwo" data-aos="fade-up" class="block container block-plans">
+        <div class="grid grid--1x3">
+            <div class="plan">
+                <div class="card card--secondary">
+                  <header class="card__header">
+                    <h3 class="plan__name">Plan</h3>
+                    <span class="plan__price">£9</span>
+                    <span class="plan__billing-cycle">/month</span>
+                    <span class="badge badge--secondary badge--small">10% OFF</span>
+                    <span class="plan__description">Easy to start</span>
+                  </header>
+                  <div class="card__body">
+                    <ul class="list list--tick">
+                      <li class="list__item">Unlimited Movies</li>
+                      <li class="list__item">Limited Bandwidth</li>
+                      <li class="list__item">20GB FullHD</li>
+                    </ul>
+                    <button class="btn btn--outline btn--block">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+            <div class="plan plan--popular">
+                <div class="card card--primary">
+                  <header class="card__header">
+                    <h3 class="plan__name">Plan</h3>
+                    <span class="plan__price">£10</span>
+                    <span class="plan__billing-cycle">/month</span>
+                    <span class="badge badge--primary badge--small">10% OFF</span>
+                    <span class="plan__description">Easy to start</span>
+                  </header>
+                  <div class="card__body">
+                    <ul class="list list--tick">
+                      <li class="list__item">Unlimited Movies</li>
+                      <li class="list__item">Limited Bandwidth</li>
+                      <li class="list__item">100GB FullHD</li>
+                      <li class="list__item">50GB 4K UltraHD</li>
+                    </ul>
+                    <button class="btn btn--outline btn--block">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+            <div class="plan">
+                <div class="card card--secondary">
+                  <header class="card__header">
+                    <h3 class="plan__name">Plan</h3>
+                    <span class="plan__price">£11</span>
+                    <span class="plan__billing-cycle">/month</span>
+                    <span class="badge badge--secondary badge--small">10% OFF</span>
+                    <span class="plan__description">Easy to start</span>
+                  </header>
+                  <div class="card__body">
+                    <ul class="list list--tick">
+                      <li class="list__item">Unlimited Websites</li>
+                      <li class="list__item">Unlimited Bandwidth</li>
+                      <li class="list__item">Unlimited FullHD</li>
+                      <li class="list__item">Unlimited 4K UltraHD</li>
+                    </ul>
+                    <button class="btn btn--outline btn--block">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sectiunea 4 -->
+    <section id="expand" class="block container">
+        <header class="block__header">
+          <h2>Expand your horizons!</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed,
+            voluptatem.
+          </p>
+        </header>
+        <article class="grid grid--1x2 feature">
+          <div class="feature__content" data-aos="fade-right">
+            <span class="icon-container">A
+            </span>
+            <h3 class="feature__heading">Super Easy to Use</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+            </p>
+            <a href="#" class="link-arrow">Learn More</a>
+          </div>
+            <img class="my__class__two" src="Capture.PNG" alt="" />
+        </article>
+        <article class="grid grid--1x2 feature">
+          <div class="feature__content">
+            <span class="icon-container">B
+            </span>
+            <h3 class="feature__heading">Find any movie you want</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+            </p>
+            <a href="#" class="link-arrow">Learn More</a>
+          </div>
+          <div>
+            <img class="my__class__two" src="Capture.PNG" alt="" />
+          </div>
+        </article>
+        <article class="grid grid--1x2 feature">
+          <div class="feature__content">
+            <span class="icon-container">C
+            </span>
+            <h3 class="feature__heading">Made Easy</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+            </p>
+            <a href="#" class="link-arrow">Learn More</a>
+          </div>
+          <div>
+              <img class="my__class__two" src="Capture.PNG" alt="" />
+          </div>
+        </article>
+        <article class="grid grid--1x2 feature">
+          <div class="feature__content">
+            <span class="icon-container">D
+            </span>
+            <h3 class="feature__heading">Customer Support Line</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+              obcaecati vel ad unde est illo at. Labore excepturi officia dolores!
+            </p>
+            <a href="#" class="link-arrow">Learn More</a>
+          </div>
+          <div>
+              <img class="my__class__two" src="Capture.PNG" alt="" />
+          </div>
+          <!-- <picture>
+            <source
+              type="image/webp"
+              srcset="images/support.webp 1x, images/support@2x.webp 2x"
+            />
+            <source
+              type="image/jpg"
+              srcset="images/support.jpg 1x, images/support@2x.jpg 2x"
+            />
+            </picture> -->
+        </article>
+    </section>
+    <!-- sectiune 5 -->
+    <section id="userFriendly" class="block block--dark block--skewed-right block-showcase">
+        <header class="block__header">
+          <h2>User-friendly Website</h2>
+        </header>
+        <div class="container grid grid--1x2">
+        <div>
+            <img class="my__class" src="Capture.PNG" alt="" /> 
+        </div>  
+          <!-- <picture data-aos="fade-right" class="block-showcase__image">
+            <source
+              type="image/webp"
+              srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
+            />
+            <source
+              type="image/png"
+              srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
+            />
+            </picture> -->
+          <ul class="list" data-aos="fade-up">
+            <li>
+              <div class="media">
+                <div class="media__image">
+                  <svg class="icon icon--primary">
+                    <use href="images/sprite.svg#snap"></use>
+                  </svg>
+                </div>
+                <div class="media__body">
+                  <h3 class="media__title">Easy Start</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                    vel perspiciatis consequuntur ab.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="media">
+                <div class="media__image">
+                  <svg class="icon icon--primary">
+                    <use href="images/sprite.svg#growth"></use>
+                  </svg>
+                </div>
+                <div class="media__body">
+                  <h3 class="media__title">Sort your movies</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                    vel perspiciatis consequuntur ab.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="media">
+                <div class="media__image">
+                  <svg class="icon icon--primary">
+                    <use href="images/sprite.svg#wordpress"></use>
+                  </svg>
+                </div>
+                <div class="media__body">
+                  <h3 class="media__title">Filters & More</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Veniam quisquam, ex nostrum vero voluptates dicta excepturi
+                    vel perspiciatis consequuntur ab.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </section>
+    <!-- sectiunea 6 -->
+    <section id="reviews" class="block" data-aos="zoom-in">
+        <!-- titlul sectiuni 6 -->
+        <header class="block__header">
+          <h2>What our Customers are Saying</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ipsam.
+          </p>
+        </header>
+        <!-- container -->
+        <div class="container">
+          <div class="card testimonial">
+            <div class="grid grid--1x2">
+              <div class="testimonial__image">
+                <img
+                  src="mariusStefan.jpg"
+                  alt="A happy, smiling customer"
+                />
+                <span class="icon-container icon-container--accent">
+                  <svg class="icon icon--white icon--small">
+                    <use href="images/sprite.svg#quotes"></use>
+                  </svg>
+                </span>
+              </div>
+              <blockquote class="quote">
+                <p class="quote__text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Incidunt optio officiis dolore earum error eaque perferendis
+                  laudantium sed praesentium dolorum.
+                </p>
+                <footer>
+                  <div class="media">
+                    <div class="media__image">
+                      <svg class="icon icon--primary quote__line">
+                        <use href="images/sprite.svg#line"></use>
+                      </svg>
+                    </div>
+                    <div class="media__body">
+                      <h3 class="media__title quote__author">Marius Stefan</h3>
+                      <p class="quote__organization">cinephile</p>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--  -->
+    <div class="container">
+        <div class="callout callout--primary callout-signup">
+          <div class="grid grid--1x2">
+            <div class="callout__content">
+              <h2 class="callout__heading">Ready to Get Started?</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+                voluptate tempora qui distinctio consequatur aliquid pariatur
+                cupiditate quas cum fugit.
+              </p>
+            </div>
+            <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
+          </div>
+        </div>
+    </div>
+    <!-- partea de jos a pagini -->
+    <footer class="block block--dark footer">
+        <div class="container grid footer__sections">
+          <section class="collapsible collapsible--expanded footer__section">
+            <div class="collapsible__header">
+              <h2 class="collapsible__heading footer__heading">Movies</h2>
+            </div>
+            <div class="collapsible__content">
+              <ul class="list">
+                <li><a href="#">Website</a></li>
+                <li><a href="#">Action Movies</a></li>
+                <li><a href="#">Migrations</a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="collapsible footer__section">
+            <div class="collapsible__header">
+              <h2 class="collapsible__heading footer__heading">About our website</h2>
+            </div>
+            <div>
+              <ul class="list">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Action Movies</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="collapsible footer__section">
+            <div class="collapsible__header">
+              <h2 class="collapsible__heading footer__heading">Support</h2>
+            </div>
+            <div>
+              <ul class="list">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Action Movies </a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="collapsible footer__section">
+            <div class="collapsible__header">
+              <h2 class="collapsible__heading footer__heading">Other</h2>
+            </div>
+            <div>
+              <ul class="list">
+                <li><a href="#">Comedy Movies</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Movies</a></li>
+              </ul>
+            </div>
+          </section>
+          <div class="footer__brand">
+            <img  class="my_logo" src="MArLogoSmallest.PNG" alt="" />
+            <p class="footer__copyright">Copyright 2023 Marius Stefan</p>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
