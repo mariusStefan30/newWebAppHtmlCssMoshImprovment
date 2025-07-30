@@ -1,4 +1,4 @@
-# newWebAppHtmlCssMoshImprovment
+# newWebAppHtmlCssMosh Practice
 Movie Rent Web App 
 
 Live here:
